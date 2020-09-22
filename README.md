@@ -9,7 +9,7 @@ Read RSS news on demand.
 | Source | Importer  | Category |
 | ------ | --------- | -------- |
 | RTHK   | RSSRTHK   | rthk     |
-| ASAHI  | RSSASAHI  | asahi    |
+| KYODO  | RSSKYODO  | kyodo    |
 | BBC    | RSSBBC    | bbc      |
 | DW     | RSSDW     | dw       |
 | REUTERS| RSSREUTERS| reuters  |
@@ -20,7 +20,7 @@ Read RSS news on demand.
 ```
 # Customize RSS importers in local gem 'jekyll-import':
 $ ls .../gems/jekyll-import-{version}/lib/jekyll-import/importers/rss*
-# rss.rb rssasahi.rb rssbbc.rb rssdw.rb rssreuters.rb rssrthk.rb
+# rss.rb rsskyodo.rb rssbbc.rb rssdw.rb rssreuters.rb rssrthk.rb
 
 # Import RSS feeds and commit posts back:
 $ ./_feed.sh  # pull, import, archive, add, commit, push

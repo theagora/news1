@@ -7,7 +7,8 @@ ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSRTHK.r
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSRTHK.run({"source"=>"http://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cinternational.xml"})'
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSRTHK.run({"source"=>"http://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cfinance.xml"})'
 
-ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSASAHI.run({"source"=>"https://feedx.net/rss/asahi.xml"})'
+#ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSASAHI.run({"source"=>"https://feedx.net/rss/asahi.xml"})'
+ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSKYODO.run({"source"=>"https://feedx.net/rss/kyodo.xml"})'
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSBBC.run({"source"=>"https://feedx.net/rss/bbc.xml"})'
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSDW.run({"source"=>"https://feedx.net/rss/dw.xml"})'
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSREUTERS.run({"source"=>"https://feedx.net/rss/reuters.xml"})'
