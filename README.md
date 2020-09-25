@@ -8,11 +8,12 @@ Read RSS news on demand.
 
 | Source | Importer  | Category |
 | ------ | --------- | -------- |
-| RTHK   | RSSRTHK   | rthk     |
-| KYODO  | RSSKYODO  | kyodo    |
 | BBC    | RSSBBC    | bbc      |
 | DW     | RSSDW     | dw       |
+| JOINS  | RSSJOINS  | joins    |
+| KYODO  | RSSKYODO  | kyodo    |
 | REUTERS| RSSREUTERS| reuters  |
+| RTHK   | RSSRTHK   | rthk     |
 
 
 ## Import and Commit
@@ -20,7 +21,7 @@ Read RSS news on demand.
 ```
 # Customize RSS importers in local gem 'jekyll-import':
 $ ls .../gems/jekyll-import-{version}/lib/jekyll-import/importers/rss*
-# rss.rb rsskyodo.rb rssbbc.rb rssdw.rb rssreuters.rb rssrthk.rb
+# rssbbc.rb rssdw.rb rssjoins.rb rsskyodo.rb rssreuters.rb rssrthk.rb
 
 # Import RSS feeds and commit posts back:
 $ ./_feed.sh  # pull, import, archive, add, commit, push
