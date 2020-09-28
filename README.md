@@ -13,6 +13,7 @@ Read RSS news on demand.
 | JOINS  | RSSJOINS  | joins    |
 | KYODO  | RSSKYODO  | kyodo    |
 | REUTERS| RSSREUTERS| reuters  |
+| RFI    | RSSRFI    | rfi      |
 | RTHK   | RSSRTHK   | rthk     |
 
 
@@ -21,7 +22,7 @@ Read RSS news on demand.
 ```
 # Customize RSS importers in local gem 'jekyll-import':
 $ ls .../gems/jekyll-import-{version}/lib/jekyll-import/importers/rss*
-# rssbbc.rb rssdw.rb rssjoins.rb rsskyodo.rb rssreuters.rb rssrthk.rb
+# rssbbc.rb rssdw.rb rssjoins.rb rsskyodo.rb rssreuters.rb rssrfi.rb rssrthk.rb
 
 # Import RSS feeds and commit posts back:
 $ ./_feed.sh  # pull, import, archive, add, commit, push

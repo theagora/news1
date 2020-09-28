@@ -12,6 +12,7 @@ ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSJOINS.
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSKYODO.run({"source"=>"https://feedx.net/rss/kyodo.xml"})'
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSBBC.run({"source"=>"https://feedx.net/rss/bbc.xml"})'
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSDW.run({"source"=>"https://feedx.net/rss/dw.xml"})'
+ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSRFI.run({"source"=>"https://feedx.net/rss/rfi.xml"})'
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSREUTERS.run({"source"=>"https://feedx.net/rss/reuters.xml"})'
 
 if [ "$(uname -s)" == "Darwin" ]; then
