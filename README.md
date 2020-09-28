@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  news⓵
+title:  NEWS⓵
 permalink: /readme/
 ---
 
