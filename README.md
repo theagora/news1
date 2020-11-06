@@ -2,19 +2,21 @@
 layout: page
 title:  NEWS⓵
 permalink: /readme/
+comments_repo: agorahub/news0
+comments_id: 3
 ---
 
 Read RSS news on demand.
 
-| Source | Importer  | Category |
-| ------ | --------- | -------- |
-| BBC    | RSSBBC    | bbc      |
-| DW     | RSSDW     | dw       |
-| JOINS  | RSSJOINS  | joins    |
-| KYODO  | RSSKYODO  | kyodo    |
-| REUTERS| RSSREUTERS| reuters  |
-| RFI    | RSSRFI    | rfi      |
-| RTHK   | RSSRTHK   | rthk     |
+| Source | Importer  | Update |
+| ------ | --------- | ------ |
+| BBC    | RSSBBC    | 5/Day  |
+| DW     | RSSDW     | 5/Day  |
+| JOINS  | RSSJOINS  | 5/Day  |
+| KYODO  | RSSKYODO  | 5/Day  |
+| REUTERS| RSSREUTERS| 5/Day  |
+| RFI    | RSSRFI    | 5/Day  |
+| RTHK   | RSSRTHK   | 5/Day  |
 
 
 ## Import and Commit
@@ -30,7 +32,7 @@ $ ./_feed.sh  # pull, import, archive, add, commit, push
 
 ## Batch and Automate
 
-https://github.com/agorahub/news0/issues/1#issuecomment-597540617
+Check the [Issue comment](https://github.com/agorahub/news0/issues/1#issuecomment-597540617).
 
 ## Test and Deploy
 
@@ -44,6 +46,8 @@ $ bundle exec jekyll serve
 $ JEKYLL_ENV=production bundle exec jekyll build
 # Copy the compiled codes from _site/ to your html server.
 ```
+
+{% include comments.html %}
 
 ## Disclaimer
 
