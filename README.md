@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  NEWS⓵
+#title: NEWS⓵
 permalink: /readme/
 comments_repo: agorahub/news0
 comments_id: 3
@@ -9,8 +9,9 @@ comments_id: 3
 Read news on demand.
 
 | Source | Importer  | Update |
-| ------ | --------- | ------ |
+| :----- | :-------- | :----- |
 | BBC    | RSSBBC    | 5/Day  |
+| CNA    | RSSCNA    | 5/Day  |
 | DW     | RSSDW     | 5/Day  |
 | JOINS  | RSSJOINS  | 5/Day  |
 | KYODO  | RSSKYODO  | 5/Day  |

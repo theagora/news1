@@ -8,6 +8,7 @@ ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSRTHK.r
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSRTHK.run({"source"=>"http://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cfinance.xml"})'
 
 #ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSASAHI.run({"source"=>"https://feedx.net/rss/asahi.xml"})'
+ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSCNA.run({"source"=>"https://feedx.net/rss/cna.xml"})'
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSJOINS.run({"source"=>"https://feedx.net/rss/joins.xml"})'
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSKYODO.run({"source"=>"https://feedx.net/rss/kyodo.xml"})'
 ruby -r rubygems -e 'require "jekyll-import"; JekyllImport::Importers::RSSBBC.run({"source"=>"https://feedx.net/rss/bbc.xml"})'
