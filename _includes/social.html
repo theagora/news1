@@ -1,0 +1,14 @@
+<div class="container-fluid justify-content-center">
+
+  {% for account in site.social %}
+
+    <a class="social mx-1" href="{{ account.url }}"
+       style="color: #7794b9"
+       onMouseOver="this.style.color='#ff6900'"
+       onMouseOut="this.style.color='#7794b9'">
+      <i class="fab fa-{{ account.title }} fa-lg"></i>
+    </a>
+  
+  {% endfor %}
+
+</div>

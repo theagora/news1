@@ -1,0 +1,21 @@
+<div class="card-columns m-3 mt-5">
+  {% for po in site[page.collection] %}
+
+    {%- assign po_type = "local" -%}
+    {%- assign po_id   = po.name | slugify -%}
+    {%- assign po_img  = po.image -%}
+    {%- assign po_name = po.name -%}
+    {%- assign po_desc = po.description -%}
+    {%- assign po_tags = po.tags -%}
+
+    {%- if po.external_url -%}
+      {%- assign po_url = po.external_url -%}
+    {%- else -%}
+      {%- assign po_url = po.url | relative_url -%}
+    {%- endif -%}
+
+    {% include po-card.html %}
+
+  {% endfor %}
+
+</div>
