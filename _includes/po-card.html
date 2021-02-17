@@ -1,7 +1,7 @@
 <div class="wow animated fadeIn" data-wow-delay=".15s">
   <a href="{{ po_url }}" class="portfolio card text-dark">
     {%- if po_img -%}
-    <img id="{{ po_id }}-img" class="card-img-top" src="{{ po_img }}" alt="{{ po_name }}" />
+    <img id="{{ po_id }}-img" class="card-img-top" src="{{ site.baseurl }}{{ po_img }}" alt="{{ po_name }}" />
     {%- endif -%}
     <div class="card-body">
       <h5 id="{{ po_id }}-name" class="card-title">
