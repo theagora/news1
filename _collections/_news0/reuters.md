@@ -4,5 +4,5 @@ layout: default
 tags: [RSS, reuters.com]
 image: "/assets/img/portfolio/reuters.png"
 description: "世界前三的多媒體新聞通訊社，總部英國，在128個國家運營。是加拿大汤姆森集团控股的新闻服务和金融市场数据供应商。"
-external_url: https://agora0.gitlab.io/news/reuters.html
+external_url: https://agora0.gitlab.io/news/reuters
 ---
