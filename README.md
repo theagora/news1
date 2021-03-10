@@ -2,7 +2,7 @@
 
 AGORA 合众社。
 
-## Source and Publish
+## Subscribe and Publish
 
 | [BLOG⓪](https://agora0.gitlab.io/blog) | [NEWS⓪](https://agora0.gitlab.io/news) | [PEN⓪](https://agorahub.github.io/pen0) |
 | :---- | :---- | :---- |
