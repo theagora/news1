@@ -116,7 +116,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll (~> 4.0.0)
-  jekyll-feed (~> 0.12)
+  jekyll-feed (~> 0.13)
   jemoji
   minima (~> 2.5)
   rake (~> 13.0)
