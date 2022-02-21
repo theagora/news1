@@ -4,7 +4,7 @@ description: "AGORA 合众社"
 baseurl: "/news1"
 url: "https://theagora.github.io"
 logo: "/assets/img/logo.png"
-author: theagora
+copyright: "Agora Community"
 
 # Plugin settings
 plugins:

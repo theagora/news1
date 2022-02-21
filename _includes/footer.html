@@ -3,9 +3,7 @@
   {% include social.html %}
 
   <small class="text-muted mb-2">
-    <!-- <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
-    by <strong>{{ site.author }}</strong> -->
-    © 2021 AGORA COMMUNITY
+    © {{ site.time | date: '%Y' }} {{ site.copyright | upcase }}
   </small>
   
 </footer>
