@@ -4,7 +4,7 @@ AGORA 合众社。
 
 ## Subscribe and Publish
 
-| [BLOG⓪](https://agora0.gitlab.io/blog) | [NEWS⓪](https://agora0.github.io/news) | [PEN⓪](https://agorahub.github.io/pen0) |
+| [BLOG⓪](https://agora0.github.io/post) | [NEWS⓪](https://agora0.github.io/news) | [PEN⓪](https://agorahub.github.io/pen0) |
 | :---- | :---- | :---- |
 | 零博客 | 零新聞 | 共和報 |
 
